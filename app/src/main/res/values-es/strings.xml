@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">ReferenciasApp!</string>
+
+    <!--Titulos de los activities-->
+    <string name="activity_libro">Referencias APA para Libros</string>
+    <string name="activity_wiki">Referencias APA para Wikipedia</string>
+    <string name="activity_you">Referencias APA para Videos en Internet</string>
+
+    <!--Textos de Main Activity-->
+    <string name="btnLibro">Crear una referencia APA para un libro</string>
+    <string name="btnWeb">Crear una referencia APA para Wikipedia</string>
+    <string name="btnVideo">Crear una referencia APA para un video</string>
+    <string name="btnAcerca">Acerca de...</string>
+    <string name="btnSalir">Salir</string>
+
+    <!--Texto de Ficha Acivity-->
+    <string name="exito">¡Referencia creada con exito!</string>
+    <string name="btnPortapapeles">Copiar al portapapeles</string>
+
+    <!--Textos de Libro Activity-->
+    <string name="autor">Información del Autor</string>
+    <string name="libro">Información del Libro</string>
+    <string name="publicacion">Información de publicación</string>
+    <string name="nombreAut">Nombre(s) del Autor</string>
+    <string name="apellidoAut">Apellidos del Autor</string>
+    <string name="titulo">Titulo</string>
+    <string name="editorial">Casa Editorial</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="pais">Pais</string>
+    <string name="anio">Año</string>
+    <string name="btnLimpiar">Limpiar campos</string>
+    <string name="btnCrear">¡Crear!</string>
+
+    <!--Textos de Video Activity-->
+    <string name="usuario">Usuario</string>
+    <string name="video">Información del video</string>
+    <string name="url">URL</string>
+    <string name="subida">Fecha de subida</string>
+    <string name="dia">Dia</string>
+    <string name="mes">Mes</string>
+
+    <!--Textos de Wikipedia Activity-->
+    <string name="articulo">Información del articulo</string>
+    <string name="sitio">Información del sitio web</string>
+    <string name="post">Fecha de consulta</string>
+
+    <!--Textos varios-->
+    <string name="validarCampos">Es necesario que todos los campos contengan valores</string>
+    <string name="camposVacios">Todos los campos fueron limpiados</string>
+    <string name="videoRef">[Archivo de video]. Recuperado de http://</string>
+    <string name="msjClip">El texto fue copiado al portapapeles</string>
+    <string name="app_version">1.0.0</string>
+</resources>

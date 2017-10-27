@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:background="@drawable/main1"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.bash.app.referenciasapp.MainActivity">
+
+    <Button
+        android:id="@+id/btnMainFichaLibro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/cab_bnt2"
+        android:text="@string/btnLibro"
+        android:textColor="@color/colorBlanco"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnMainFichaPagina"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/cab_bnt2"
+        android:text="@string/btnWeb"
+        android:textColor="@color/colorBlanco"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnMainFichaVideo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cab_bnt2"
+        android:layout_marginBottom="5dp"
+        android:text="@string/btnVideo"
+        android:textColor="@color/colorBlanco"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnMainAcerca"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/cab_bnt2"
+            android:text="@string/btnAcerca"
+            android:textColor="@color/colorBlanco"
+            android:textSize="15sp" />
+        <Button
+            android:id="@+id/btnMainSalir"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/cab_bnt2"
+            android:text="@string/btnSalir"
+            android:textColor="@color/colorBlanco"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
+

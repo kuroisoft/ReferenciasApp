@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">ReferencesApp!</string>
+
+    <!--Titulos de los activities-->
+    <string name="activity_libro">APA References for books</string>
+    <string name="activity_wiki">APA References for Wikipedia</string>
+    <string name="activity_you">APA References for Internet Videos</string>
+
+    <!--Textos de Main Activity-->
+    <string name="btnLibro">Create an APA Reference for a Book</string>
+    <string name="btnWeb">Create an APA Reference for Wikipedia</string>
+    <string name="btnVideo">Create an APA Reference for a Video</string>
+    <string name="btnAcerca">About...</string>
+    <string name="btnSalir">Exit</string>
+
+    <!--Texto de Ficha Acivity-->
+    <string name="exito">APA Reference successfully created!</string>
+    <string name="btnPortapapeles">Copy to clipboard</string>
+
+    <!--Textos de Libro Activity-->
+    <string name="autor">Author Information</string>
+    <string name="libro">Book Information</string>
+    <string name="publicacion">Publication Information</string>
+    <string name="nombreAut">Author\'s First Name</string>
+    <string name="apellidoAut">Author\'s Last Name</string>
+    <string name="titulo">Title</string>
+    <string name="editorial">Publishing House</string>
+    <string name="ciudad">City</string>
+    <string name="pais">Country</string>
+    <string name="anio">Year</string>
+    <string name="btnLimpiar">Clear Fields</string>
+    <string name="btnCrear">Create!</string>
+
+    <!--Textos de Video Activity-->
+    <string name="usuario">User</string>
+    <string name="video">Video Information</string>
+    <string name="url">URL</string>
+    <string name="subida">Upload Date</string>
+    <string name="dia">Day</string>
+    <string name="mes">Month</string>
+
+    <!--Textos de Wikipedia Activity-->
+    <string name="articulo">Article Information</string>
+    <string name="sitio">Website Information</string>
+    <string name="post">Search Date</string>
+
+    <!--Textos varios-->
+    <string name="validarCampos">All fields must be filled to continue</string>
+    <string name="camposVacios">All fields were cleared</string>
+    <string name="videoRef">[Video file]. Retrieved from http://</string>
+    <string name="msjClip">Text was copied to clipboard</string>
+    <string name="app_version">1.0.0</string>
+</resources>

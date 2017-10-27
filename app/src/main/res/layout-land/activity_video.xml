@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@color/fondoActivities"
+    tools:context="com.bash.app.referenciasapp.VideoActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/autor"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtVidNombreAutor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:hint="@string/nombreAut" />
+
+        <EditText
+            android:id="@+id/txtVidAPellidosAutor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:hint="@string/apellidoAut"/>
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/txtVidUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:hint="@string/usuario"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/video"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtVidTitulo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:hint="@string/titulo" />
+
+        <EditText
+            android:id="@+id/txtVidUrl"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:hint="@string/url"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subida"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+        <EditText
+            android:id="@+id/txtVidDia"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/dia"
+            android:layout_weight="0.3"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/txtVidMes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/mes"
+            android:layout_weight="0.3"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/txtVidAnio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/anio"
+            android:layout_weight="0.3"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="bottom"
+        android:layout_marginBottom="5dp">
+        <Button
+            android:id="@+id/btnVidCreaFicha"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="@string/btnCrear"
+            android:textSize="15sp"
+            android:textColor="@color/colorBlanco"
+            android:background="@drawable/cab_bnt2"
+            android:layout_marginRight="2dp"/>
+
+        <Button
+            android:id="@+id/btnVidBorraDatos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/btnLimpiar"
+            android:textSize="15sp"
+            android:textColor="@color/colorBlanco"
+            android:background="@drawable/cab_bnt2"
+            android:layout_marginLeft="2dp"/>
+    </LinearLayout>
+</LinearLayout>

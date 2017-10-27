@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:gravity="center"
+    android:background="@color/fondoActivities"
+    tools:context="com.bash.app.referenciasapp.WikipediaActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/articulo"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/txtWikNombreArticulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/titulo"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sitio"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/txtWikUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/url" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/post"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txtWikDia"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/dia"
+            android:layout_weight="0.3"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/txtWikMes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:hint="@string/mes"
+            android:layout_weight="0.3"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/txtWikAnio"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:hint="@string/anio"
+            android:layout_weight="0.3"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/btnWikCreaFicha"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginRight="4dp"
+            android:text="@string/btnCrear"
+            android:textSize="13sp"
+            android:textColor="@color/colorBlanco"
+            android:background="@drawable/cab_bnt2"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:id="@+id/btnWikBorraDatos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="4dp"
+            android:text="@string/btnLimpiar"
+            android:textColor="@color/colorBlanco"
+            android:textSize="13sp"
+            android:background="@drawable/cab_bnt2"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+</LinearLayout>
